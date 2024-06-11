@@ -1,0 +1,86 @@
+.searchFormWrap {
+  width: 735px;
+  height: max-content;
+  background-color: white;
+  margin: 80px auto;
+}
+
+.searchFormInput {
+  display: flex;
+  align-items: center;
+}
+
+#searchForm {
+  height: 60px;
+  width: 670px;
+  border: none;
+  font-size: 18px;
+  padding-left: 30px;
+  outline: none;
+}
+
+.search_avatar {
+  width: 35px;
+  background-color: white;
+}
+
+hr {
+  height: 2px;
+  width: 735px;
+  /* Để tác động màu cho <hr> thì phải làm ở border property */
+  border-bottom: 3px solid #1dbcec;
+}
+
+.searchButton {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 520px;
+}
+
+.but-Reset {
+  border: none;
+  font-weight: bold;
+  color: #5a5757;
+  font-size: 15px;
+  background-color: white;
+}
+
+.but-Search {
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  background-color: #1dbcec;
+  padding: 10px 18px;
+}
+
+.but-Reset:hover,
+.but-Search:hover {
+  transform: scale(1.1);
+}
+
+/* css for advance part for completing Node JS requirements */
+.search_genre,
+.search_mediaType,
+.search_language,
+.search_year {
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
+.searchFormWrap label {
+  display: inline-block;
+  width: 100px;
+  margin-left: 30px;
+}
+#genre,
+#mediaType,
+#language,
+#year {
+  width: 300px;
+  height: 25px;
+  outline: none;
+  padding-left: 10px;
+}

@@ -1,0 +1,37 @@
+.movieDetailWrap {
+  display: flex;
+  color: white;
+  gap: 20px;
+  margin: 25px;
+}
+.movieDetailInfo {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.movieDetailInfo hr {
+  width: 100%;
+}
+
+.movieDetailInfo h2 {
+  margin-bottom: 15px;
+}
+
+.movieDetailDate {
+  margin-top: 15px;
+}
+.movieDetailVote {
+  margin-bottom: 15px;
+}
+
+.movieDetailOver {
+  font-size: 13px;
+}
+
+.movieDetailYoutube {
+  width: 50%;
+}
+
+.movieDetailImgBackdrop {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.resultListWrap {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.resultList {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap; /* cho phép xuống dòng nếu dài quá vùng chứa, nếu không thiết lập thì mặc định là nowrap (không xuống dòng) */
+  margin-top: 20px;
+}
+
+.resultListMov {
+  max-width: 150px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.resultListMov:hover {
+  scale: 1.05;
+}
